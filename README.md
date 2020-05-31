@@ -7,6 +7,10 @@ To run this app from docker image;
 `docker run --publish 80:80 --detach --name hts-prod arupsarkardocker/hts-ng-docker-app:latest`
 
 
+# Development steps
+Please look at the [a relative link](Steps.md) to understand the process of how this application is built, dockerized to follow simple CICD pipeline.
+
+
 # Contributing
 1. make sure you have installed docker, docker-compose (if you want to manage the app using docker-compose. this project supports docker-compose as well), node.js and angular-cli
 2. build this app using docker 
